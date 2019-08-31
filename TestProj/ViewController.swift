@@ -14,11 +14,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         sumFunction()
+        
+        self.Noncorrectfunc()
     }
 
     
     func sumFunction() -> Int {
-        return 0
+        return 1
+    }
+    
+    
+    
+    func Noncorrectfunc(){
+        
     }
 }
 
